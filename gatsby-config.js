@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Victor Fuentes Frontend Engineer`,
+    description: `Victor Fuentes is a web developer born and bred in Chicago.`,
+    author: `MrFuentastic`,
+    siteUrl: `https://www.mrfuentastic.com`,
+    keywords: `Victor Fuentes, MrFuentastic, web developer, full stack developer, frontend engineer, ux engineer, software engineer, chicago web developer, chicago full stack developer, chicago software engineer, chicago frontend engineer, chicago ux engineer,`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -31,6 +32,7 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-styled-components`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
